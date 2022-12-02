@@ -21,7 +21,7 @@ def main(page: Page):
     page.appbar = AppBar(
         leading=Icon(icons.AUDIOTRACK),
         leading_width=40,
-        title=Text(" Navegación"),
+        title=Text(" Navegación page 1"),
         center_title=True,
         bgcolor=colors.SURFACE_VARIANT,
         actions=[

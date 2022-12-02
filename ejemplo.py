@@ -2,6 +2,7 @@ import flet
 from flet import AppBar, ElevatedButton, Page, Text, View, colors
 
 def main(page: Page):
+
     page.title = "Routes Example Python"
 
     def route_change(route):
