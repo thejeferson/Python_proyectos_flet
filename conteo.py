@@ -2,7 +2,7 @@ import flet
 from flet import Page, TextField, Row, IconButton, icons
 
 def main(page: Page):
-    page.title = "Aplicación de Conteo"
+    page.title = "Counter App Python"
     page.vertical_alignment = "center"
     text_field = TextField(value="0", width=100, text_align="right")
     
